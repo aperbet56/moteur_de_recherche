@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moteur de recherche</title>
+    <link rel="stylesheet" href="style.css">
+<body>
+    <header>
+        <h1>Moteur de recherche</h1>
+    </header>
+    <main>
+        <div class="theme-btn" id="themeBtn">
+            <ion-icon name="moon" id="moonBtn"></ion-icon>
+            <ion-icon name="sunny" id="sunBtn" class="invisible dnone"></ion-icon>
+        </div>
+        <form action="https://www.google.com/search"  method="get" class="search__bar">
+            <input type="search" placeholder="Rechercher" name="q" class="search">
+            <button type="submit" class="submit"> 
+                <img src="img/search.png" alt="Logo de Google">
+            </button>
+        </form>
+    </main>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
